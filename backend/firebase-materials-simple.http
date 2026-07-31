@@ -19,8 +19,8 @@
 # ============================================================
 
 @FIREBASE_API_KEY = AIzaSyDesRHQrUuTp0HwGuOJPnIj8MegCFkK_yw
-@EMAIL = prueba123@gmail.com
-@PASSWORD = prueba123
+@EMAIL = usuario45@gmai.com
+@PASSWORD = usuario45
 @BACKEND_URL = http://127.0.0.1:8000
 
 
@@ -45,10 +45,10 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Empresa Prueba koaj",
-  "nit": "123456789-7",
-  "city": "barranquilla",
-  "sector": "industrial"
+  "name": "uniempresarial",
+  "nit": "987654321-7",
+  "city": "bogota",
+  "sector": "educacion"
 }
 
 ### 2. CONSULTAR companies CON EL TOKEN OBTENIDO
