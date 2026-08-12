@@ -1,0 +1,22 @@
+name: ecored-circular
+
+services:
+  app:
+
+    platform: linux/amd64
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: ecored-circular:v1.0
+    container_name: ecored-circular
+
+    ports:
+      - "8080:10000"
+
+    volumes:
+      - ./backend/.env:/app/backend/.env:ro
+      - ./backend/firebase-service-account.json:/app/backend/firebase-service-account.json:ro
+
+    restart: unless-stopped

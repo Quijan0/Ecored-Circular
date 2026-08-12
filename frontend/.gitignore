@@ -4,9 +4,7 @@ dist/
 dist-ssr/
 
 # Variables de entorno locales
-.env
-.env.*
-!.env.example
+
 
 # Registros
 logs/
