@@ -217,7 +217,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 backend/venv/
-backend/firebase-service-account.json
+
 __pycache__/
 *.pyc
 node_modules/
